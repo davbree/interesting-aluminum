@@ -41,7 +41,7 @@ export default class Action extends React.Component {
             <Link href={withPrefix(url)} {...attrs} className={classes} data-sb-field-path={annotations.join(' ')}>
                 {(hasIcon && icon) ? (
                     <React.Fragment>
-                        <Icon icon={icon} />
+                        <Icon icon={icon} />aaa
                         <span
                             className={classNames({
                                 'order-first': iconPos === 'right',
